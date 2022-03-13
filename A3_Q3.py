@@ -32,8 +32,8 @@ f1 = np.copy(x)
 pl.ion()
 fig, axes = pl.subplots(1,1)
 axes.set_title('Simulation of lava flowing down an inclined slope')
-axes.set_xlabel('Flow velocity')
-axes.set_ylabel('Height from inclined slope')
+axes.set_xlabel('Height from inclined slope')
+axes.set_ylabel('Flow velocity')
 
 # Plotting steady state in the background for reference
 vel = (-g/D1)*np.sin(theta)*(0.5*x**2 - 1.0*x)
